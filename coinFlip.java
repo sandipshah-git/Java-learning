@@ -10,7 +10,7 @@ public class coinFlip {
 
         // System.out.println(isHead);
 
-        if(isHead == true){
+        if(isHead){
             System.out.println("Heads");
         }
         else{
