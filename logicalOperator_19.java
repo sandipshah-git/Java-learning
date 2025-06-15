@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class logicalOperator {
+public class logicalOperator_19 {
 
     public static void main(String[] args){
         // logical operator
