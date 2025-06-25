@@ -61,7 +61,7 @@ public class bankingProgram_31 {
         }
     }
     static double Withdraw(double amount){
-        System.out.print("Enter amount to be withdra : ");
+        System.out.print("Enter amount to be withdraw : ");
         double withdraAmount = scanner.nextDouble();
 
         if(withdraAmount < 0){
