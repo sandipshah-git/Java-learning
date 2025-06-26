@@ -11,7 +11,7 @@ public class arrayInputByUser_34 {
         // (if there is string then they have nextLine(), so that makes already to newline)
 
         // nextLine() -> Read a whole line of text from the user (until they press Enter).
-        // but nextLine() -> This may read leftover Enter key (not real input)
+        // but nextInt() -> This may read leftover Enter key (not real input)
         // ✅ "Leftover" means: something that's still there and not used yet.
 
         String[] names = new String[size];
