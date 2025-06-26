@@ -22,3 +22,22 @@ public class Array_33 {
         }
     }
 }
+
+/*
+
+public class arrayInputByUser_34 {
+    public static void main(String[] args){
+
+        String[] name = new String[3];
+
+        name[0] = "ram";
+        name[1] = "shyam";
+        name[2] = "krishna";
+
+        for(String names : name){
+            System.out.println(names);
+        }
+    }
+}
+
+ */
