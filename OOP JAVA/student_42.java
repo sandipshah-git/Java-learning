@@ -1,9 +1,18 @@
 public class student_42 {
-    String name = "sandip";
-    int age = 23;
-    boolean isRunning = true;
+    
+    String name;
+    int age;
+    double gpa;
+    boolean isEnrolled;
 
-    void study (){
-        System.out.println("good");
+    student_42 (String name, int Age, double gpa){
+        this.name = name;  // ✅ You need (this.) when variable names are the same.
+        age = Age;  //  ✅ This works without (this.) because the names are different (age vs Age).
+        this.gpa = gpa;
+        this.isEnrolled = true;
+    }
+
+    void study(){
+        System.out.println(this.name + " is studying");
     }
 }
