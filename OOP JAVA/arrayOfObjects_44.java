@@ -1,9 +1,9 @@
 public class arrayOfObjects_44 {
     public static void main(String[] args) {
 
-        Car_44 car1 = new Car_44 ("sandip " , "black");
-        Car_44 car2 = new Car_44 ("syand " , "white");
-        Car_44 car3 = new Car_44 ("janna " , "red");
+        Car_44 car1 = new Car_44 ("Mustang " , "black");
+        Car_44 car2 = new Car_44 ("Corvette " , "white");
+        Car_44 car3 = new Car_44 ("Thar " , "red");
 
         Car_44[] cars = new Car_44 [3];
 
@@ -19,6 +19,7 @@ public class arrayOfObjects_44 {
         // };
 
        
+
         for(int i = 0; i < cars.length; i++){
             cars[i].drive();
         }
