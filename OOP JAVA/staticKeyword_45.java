@@ -11,9 +11,11 @@ public class staticKeyword_45 {
         friend_45 friend4 = new friend_45("Sandy");
 
 
-        // System.out.println(friend1.numOfFriends);
-        // System.out.println(friend2.numOfFriends);
-        // System.out.println(friend3.numOfFriends);
+        System.out.println(friend1.numOfFriends); // first make its all  comment and u will understand
+        System.out.println(friend2.numOfFriends); // first make its all  comment and u will understand
+        System.out.println(friend3.numOfFriends); // first make its all  comment and u will understand
+        System.out.println(friend4.numOfFriends); // first make its all  comment and u will understand
+
         System.out.println(friend_45.numOfFriends);
 
         friend_45.showFriends();  // usign direct class name rather than object like friend1 for access, is helped by static keyword
