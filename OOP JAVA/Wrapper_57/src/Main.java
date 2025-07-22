@@ -36,7 +36,7 @@ public class Main {
 //        int a = Integer.parseInt("1234");
 //        double b = Double.parseDouble("34.32");
 //        char c = "Pizza".charAt(0); // character doesn't have parse method ,and it is also unrelated to wrapper class
-//        double d = Double.parseDouble("true");
+//        boolean d = Boolean.parseBoolean("true");
 //
 //        System.out.println(a); // it will give 1234
 //
