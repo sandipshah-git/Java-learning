@@ -28,7 +28,7 @@ public class Main {
 
         Random random = new Random();
         String word = words.get(random.nextInt(words.size()));
-        System.out.println(word);
+//        System.out.println(word);
 
 
 //        String word = "pizza";
