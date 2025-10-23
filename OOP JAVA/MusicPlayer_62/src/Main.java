@@ -46,7 +46,7 @@ public class Main {
             System.out.println("Could not locate file.");
         }
         catch (UnsupportedAudioFileException e) {
-            System.out.println("Audio file is not supported");;
+            System.out.println("Audio file is not supported");
         }
         catch (LineUnavailableException e){
             System.out.println("unable to access audio resource.");
