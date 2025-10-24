@@ -16,6 +16,7 @@ public class QuizeGame {
                             {"1. COBOL", "2. C", "3. Fortran", "4. Assembly"}};   // 31243
 
         Scanner scanner = new Scanner(System.in);
+        int [] answer = {3, 1, 2, 4, 3};
 
         for(int i = 0; i < questions.length; i++){
             System.out.println("Q" + (i+1) + " " + questions[i]);
@@ -26,10 +27,23 @@ public class QuizeGame {
             System.out.print("Enter the answer : ");
             int guess = scanner.nextInt();
             scanner.nextLine();
+
+            if(guess == answer[i] ){
+                System.out.println("***********");
+                System.out.println("Correct");
+                System.out.println("***********");
+                guess++;
+            }
+            else{
+                System.out.println("***********");
+                System.out.println("Wrong");
+                System.out.println("***********");
+            }
+System.out.println("Total correct is : " + guess );
         }
         
 
-
+scanner.close();
 
     }
 }
